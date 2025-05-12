@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: roadmap-projects
+#  datasource:
+#    url: jdbc:postgresql://localhost:5433/weather
+#    username: postgres
+#    password: ${PASSWORD}
+#    driver-class-name: org.postgresql.Driver
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      database: postgresql
+#      show-sql: true
+  devtools:
+    restart:
+      enabled: true
+  data:
+    redis:
+      host : localhost
+      port : 6379
+
+app:
+  API_KEY: ${API_KEY} # Ensure this environment variable is set
